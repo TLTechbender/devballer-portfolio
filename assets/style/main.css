@@ -168,10 +168,6 @@ nav{
     border-radius: 5rem;
 }
 
-.fixed-item nav{
-    padding-inline: 30px;
-}
- 
     
 
 .nav-left{
@@ -1539,6 +1535,12 @@ justify-content: flex-end;
     header{
         background: transparent;
     }
+    
+ nav{
+    padding-inline: 30px;
+}
+ 
+ 
 }
   @media screen and (min-width:1023px){
 
@@ -1547,6 +1549,11 @@ justify-content: flex-end;
         position: relative;
 
     }
+    
+.fixed-item nav{
+    padding-inline: 30px;
+}
+ 
 nav{
     width: 100%;
     margin-bottom: 2rem;
